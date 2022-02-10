@@ -3,3 +3,37 @@
   --color-heading: #242f51;
   --color-body: #616368;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  color: var(--color-body);
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-heading);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  margin-top: 0;
+}
