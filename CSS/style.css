@@ -37,3 +37,13 @@ h3 {
 p {
   margin-top: 0;
 }
+
+/* Links */
+.link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link--primary {
+  color: var(--color-primary);
+}
