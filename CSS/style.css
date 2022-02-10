@@ -121,3 +121,9 @@ p {
 .btn--primary:hover {
   background-color: #2000d6;
 }
+
+.btn--secondary {
+  background-color: white;
+  color: var(--color-body);
+  font-weight: 500;
+}
