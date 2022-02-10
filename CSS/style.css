@@ -1,5 +1,6 @@
 :root {
   --color-primary: #2500f9;
+  --color-secondary: #e2eaed;
   --color-heading: #242f51;
   --color-body: #616368;
 }
@@ -46,4 +47,33 @@ p {
 
 .link--primary {
   color: var(--color-primary);
+}
+
+/* Badges */
+.badge {
+  border-radius: 20px;
+  padding: 0.5rem 0;
+  padding-right: 2rem;
+  white-space: nowrap;
+  position: relative;
+}
+
+.badge--primary {
+  background-color: var(--color-secondary);
+  color: var(--color-heading);
+}
+
+.badge__text {
+  padding-left: 3.5rem;
+}
+
+.badge__tile {
+  display: inline;
+}
+
+.badge__icon-check {
+  fill: #feaa25;
+  width: 28px;
+  height: 28px;
+  position: absolute;
 }
