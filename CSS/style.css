@@ -5,6 +5,7 @@
   --color-body: #616368;
 }
 
+/* Typography */
 html {
   font-size: 62.5%;
 }
@@ -37,6 +38,21 @@ h3 {
 
 p {
   margin-top: 0;
+}
+
+/* Logo */
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.logo--left {
+  color: #fcb97a;
+}
+
+.logo--right {
+  color: var(--color-heading);
 }
 
 /* Links */
