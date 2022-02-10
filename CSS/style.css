@@ -127,3 +127,37 @@ p {
   color: var(--color-body);
   font-weight: 500;
 }
+
+/* Icons */
+.icon-container {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 70%;
+  height: 70%;
+}
+
+.icon--green {
+  background-color: #e4ffee;
+  fill: #419760;
+}
+
+.icon--red {
+  background-color: #ffcad2;
+  fill: #f55767;
+}
+
+.icon--blue {
+  background-color: #f4f4ff;
+  fill: #2563ff;
+}
+
+.icon--yellow {
+  background-color: #fff6d3;
+}
