@@ -161,3 +161,14 @@ p {
 .icon--yellow {
   background-color: #fff6d3;
 }
+
+/* Plan Toggle */
+.plan-toggle {
+  margin: auto;
+  border: 2px solid #ebebeb;
+  padding: 0.3rem;
+  border-radius: 30px;
+  max-width: 310px;
+  width: fit-content;
+  white-space: nowrap;
+}
