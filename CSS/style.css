@@ -102,3 +102,22 @@ p {
 .list--inline .list__item {
   display: inline-block;
 }
+
+/* Buttons */
+.btn {
+  border-radius: 30px;
+  border: transparent;
+  padding: 2rem 4rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: bold;
+}
+
+.btn--primary:hover {
+  background-color: #2000d6;
+}
