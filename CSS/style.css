@@ -77,3 +77,12 @@ p {
   height: 28px;
   position: absolute;
 }
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list--inline .list__item {
+  display: inline-block;
+}
