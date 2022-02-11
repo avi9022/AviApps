@@ -37,7 +37,7 @@ h3 {
 }
 
 p {
-  margin-top: 0;
+  margin: 0;
 }
 
 /* Logo */
@@ -94,9 +94,15 @@ p {
   position: absolute;
 }
 
+/* Lists */
 .list {
   list-style: none;
   padding-left: 0;
+  margin: 0;
+}
+
+.list__item {
+  padding-bottom: 3rem;
 }
 
 .list--inline .list__item {
@@ -171,4 +177,48 @@ p {
   max-width: 310px;
   width: fit-content;
   white-space: nowrap;
+}
+
+/* Plan card */
+.card {
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.card--popular {
+  border: 2px solid #ebebeb;
+}
+
+.card--regular {
+  box-shadow: 0 20px 20px 5px #ebeff1;
+}
+
+.card__header {
+  background-image: linear-gradient(#fdfdfe, #f4f7f9);
+  padding-top: 4rem;
+  padding-bottom: 3.5rem;
+  color: #999ca5;
+}
+
+.card__title {
+  display: inline-block;
+  font-weight: 600;
+}
+
+.card__sub-title {
+  margin-bottom: 0;
+}
+
+.card .list {
+  color: #999ca5;
+}
+
+.card .list__item:first-of-type {
+  margin-top: 4rem;
+}
+
+.card__footer {
+  padding: 2.5rem 0;
+  color: var(--color-primary);
 }
