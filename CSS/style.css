@@ -149,6 +149,25 @@ p {
   height: 70%;
 }
 
+.icon--arrow {
+  width: 5rem;
+  height: 5rem;
+  fill: #dee1e5;
+  border: 2px solid #f0f3f8;
+}
+
+.icon--arrow:hover {
+  border: none;
+  fill: var(--color-primary);
+  background-color: #eff3f8;
+  padding: 2px;
+}
+
+.icon--arrow .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .icon--green {
   background-color: #e4ffee;
   fill: #419760;
