@@ -265,7 +265,14 @@ p {
   justify-content: space-between;
 }
 
-.collapsible__icon {
+.collapsible__heading, .collapsible__icon {
+  margin: 2rem 4.5rem ;
+}
+
+.collapsible--expanded .collapsible__heading,
+.collapsible--expanded .collapsible__icon {
+  margin: 0;
+  margin-bottom: 2rem;
 
 }
 
@@ -284,12 +291,13 @@ p {
 /* Questions */
 .question {
   background-color: #f5f7fa;
+}
+
+.question .collapsible--expanded {
   padding: 4.5rem;
 }
 
-.question__plus {
-justify-self: end;
+.question--plus {
 font-weight: normal;
 font-size: 3rem;
-margin-top: 2rem;
 }
