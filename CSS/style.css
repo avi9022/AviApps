@@ -241,3 +241,55 @@ p {
   padding: 2.5rem 0;
   color: var(--color-primary);
 }
+
+/* Grid */
+.grid {
+  display: grid;
+}
+
+.grid--1x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--1x3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--2xrow {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+/* Collapsibles */
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapsible__icon {
+
+}
+
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
+}
+
+/* Questions */
+.question {
+  background-color: #f5f7fa;
+  padding: 4.5rem;
+}
+
+.question__plus {
+justify-self: end;
+font-weight: normal;
+font-size: 3rem;
+margin-top: 2rem;
+}
