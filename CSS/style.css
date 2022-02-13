@@ -49,6 +49,12 @@ p {
   margin: auto;
 }
 
+.container--small {
+  width: auto;
+  max-width: 650px;
+  margin: auto;
+}
+
 /* Logo */
 .logo {
   font-size: 3rem;
@@ -246,8 +252,9 @@ p {
 
 .card__header {
   background-image: linear-gradient(#fdfdfe, #f4f7f9);
-  padding-top: 4rem;
-  padding-bottom: 3.5rem;
+  /* padding-top: 5.5rem;
+  padding-bottom: 3.5rem; */
+  padding: 6rem 7rem 3.5rem 7rem;
   color: #999ca5;
 }
 
@@ -540,4 +547,29 @@ p {
 
 .ult-feature__btn {
   margin-top: 5rem;
+}
+
+/* Plan Block */
+.plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.plans__title {
+  padding-bottom: 4rem;
+}
+
+.plans__text {
+  padding-bottom: 8rem;
+}
+
+.plan__cards {
+  display: flex;
+  margin-top: 3.5rem;
+}
+
+.plan__cards .card {
+  margin-right: 5rem;
 }
