@@ -596,7 +596,7 @@ p {
 }
 
 .testimonial__footer .grid {
-  grid-template-columns: 6fr 1fr;
+  grid-template-columns: 5fr 1fr;
 }
 
 .person {
@@ -615,4 +615,22 @@ p {
 .testimonial-arrows hr {
   height: 30px;
   border: 1px solid #e7e7e7;
+}
+
+/* Testimonial Block */
+.testimonial-block {
+  display: flex;
+}
+
+.testimonial__content {
+  margin-left: 4rem;
+  max-width: 600px;
+}
+
+.testimonial__content h2 {
+  margin-bottom: 2.5rem;
+}
+
+.testimonial__content p {
+  margin-bottom: 4rem;
 }
