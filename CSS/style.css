@@ -383,3 +383,29 @@ p {
   font-weight: 500;
   margin-bottom: 3.5rem;
 }
+
+/* Media Object */
+.media {
+  display: flex;
+}
+
+.media--red {
+  color: #f55767;
+}
+
+.media--blue {
+  color: #2563ff;
+}
+
+.media--green {
+  color: #40975f;
+}
+
+.media__img {
+  margin-right: 2rem;
+  align-self: center;
+}
+
+.media__title {
+  margin: 0;
+}
