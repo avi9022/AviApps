@@ -435,3 +435,15 @@ p {
   margin-right: 2rem;
   border: 1px solid #b9b9b8;
 }
+
+/* Benefits */
+.benefit .media {
+  justify-content: space-between;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.benefit .media__img {
+  align-self: flex-start;
+  margin-bottom: 3rem;
+}
