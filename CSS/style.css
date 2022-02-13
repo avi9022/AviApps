@@ -411,6 +411,10 @@ p {
   margin-bottom: 3rem;
 }
 
+.media--col {
+  flex-direction: column;
+}
+
 .media--red {
   color: #f55767;
 }
@@ -506,4 +510,34 @@ p {
 
 .why-us p {
   padding-bottom: 9rem;
+}
+
+/* Ultimate Features */
+.ult-features > .grid--1x2 {
+  grid-template-columns: 60% 1fr;
+}
+
+.ult-feature__title {
+  margin-bottom: 2.5rem;
+}
+
+.ult-feature__text {
+  margin-bottom: 7.5rem;
+}
+
+.ult-features__img {
+  position: relative;
+  top: 10%;
+}
+
+.ult-features .media__img {
+  align-self: auto;
+}
+
+.ult-features .media {
+  margin-right: 9rem;
+}
+
+.ult-feature__btn {
+  margin-top: 5rem;
 }
