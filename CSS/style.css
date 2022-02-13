@@ -447,3 +447,21 @@ p {
   align-self: flex-start;
   margin-bottom: 3rem;
 }
+
+/* Design Block */
+.design__content {
+  align-self: center;
+}
+
+.design__heading {
+  margin-bottom: 3rem;
+}
+
+.design__text {
+  margin-bottom: 4rem;
+}
+
+.design__img {
+  position: relative;
+  right: 20%;
+}
