@@ -31,6 +31,7 @@ h1 {
 
 h2 {
   font-size: 3.6rem;
+  line-height: 4.6rem;
 }
 
 h3 {
@@ -387,6 +388,7 @@ p {
 /* Media Object */
 .media {
   display: flex;
+  margin-bottom: 3rem;
 }
 
 .media--red {
@@ -402,10 +404,25 @@ p {
 }
 
 .media__img {
-  margin-right: 2rem;
+  margin-right: 3rem;
   align-self: center;
 }
 
 .media__title {
   margin: 0;
+  padding-bottom: 2rem;
+}
+
+/* Features */
+/* .features .grid {
+  column-gap: 4rem;
+} */
+
+.features-left {
+  position: relative;
+  right: 20%;
+}
+
+.featue__text {
+  margin-bottom: 9rem;
 }
