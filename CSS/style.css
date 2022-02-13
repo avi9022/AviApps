@@ -198,6 +198,26 @@ p {
   background-color: #fff6d3;
 }
 
+.icon--light-red {
+  background-color: #ffecef;
+}
+
+.icon--light-blue {
+  background-color: #eaf9ff;
+}
+
+.icon--light-green {
+  background-color: #e4ffee;
+}
+
+.icon--light-light-blue {
+  background-color: #f4f4ff;
+}
+
+.icon--light-yellow {
+  background-color: #fdeee4;
+}
+
 /* Plan Toggle */
 .plan-toggle {
   margin: auto;
@@ -464,4 +484,26 @@ p {
 .design__img {
   position: relative;
   right: 20%;
+}
+
+/* Why Us */
+.why-us {
+  text-align: center;
+}
+
+.why-us .media {
+  flex-direction: column;
+}
+
+.why-us .icon {
+  width: 60%;
+  height: 60%;
+}
+
+.why-us__title {
+  padding-bottom: 3.5rem;
+}
+
+.why-us p {
+  padding-bottom: 9rem;
 }
