@@ -19,7 +19,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: var(--color-heading);
   margin-bottom: 1rem;
 }
@@ -36,6 +37,11 @@ h2 {
 
 h3 {
   font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8;
+  margin-bottom: 0;
 }
 
 p {
@@ -222,6 +228,12 @@ p {
 
 .icon--light-yellow {
   background-color: #fdeee4;
+}
+
+.icon--star {
+  width: 2rem;
+  height: 2rem;
+  fill: #ffcc00;
 }
 
 /* Plan Toggle */
@@ -572,4 +584,35 @@ p {
 
 .plan__cards .card {
   margin-right: 5rem;
+}
+
+/* testimonial */
+.testimonial__heading {
+  margin-bottom: 3.5rem;
+}
+
+.testimonial__text {
+  margin-bottom: 6rem;
+}
+
+.testimonial__footer .grid {
+  grid-template-columns: 6fr 1fr;
+}
+
+.person {
+  display: flex;
+}
+
+.person img {
+  padding-right: 3rem;
+}
+
+.testimonial-arrows {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-arrows hr {
+  height: 30px;
+  border: 1px solid #e7e7e7;
 }
