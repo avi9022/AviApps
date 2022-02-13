@@ -372,3 +372,14 @@ p {
   display: flex;
   align-items: center;
 }
+
+/* Trusted Brands */
+.trusted-comp {
+  text-align: center;
+}
+
+.brands__heading {
+  color: var(--color-heading);
+  font-weight: 500;
+  margin-bottom: 3.5rem;
+}
